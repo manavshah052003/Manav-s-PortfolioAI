@@ -49,5 +49,6 @@
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.0"
   },
-  "homepage": "https://manavshah052003.github.io/ai-engineer-portfolio"
+  "homepage": "."
+
 }
