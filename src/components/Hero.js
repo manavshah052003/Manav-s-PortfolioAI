@@ -1,14 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaKaggle, FaEnvelope } from 'react-icons/fa';
-import { SiGooglescholar } from 'react-icons/si';
+import { AiOutlineFileText } from "react-icons/ai";
 import { HiCode, HiChip, HiLightningBolt } from 'react-icons/hi';
 
 const Hero = () => {
   const socialLinks = [
     { icon: FaGithub, href: 'https://github.com/manavshah052003', label: 'GitHub' },
     { icon: FaLinkedin, href: 'https://linkedin.com/in/manav-shah-6a667a1a9', label: 'LinkedIn' },
-    { icon: SiGooglescholar, href: 'https://scholar.google.com/citations?user=manavshah', label: 'Google Scholar' },
+    { icon: AiOutlineFileText, href: 'https://drive.google.com/file/d/1TCbcNYGwsAWiEkxs6FfU8yxyhtKRt1jf/view?usp=sharing', label: 'Resume' },
+
     { icon: FaKaggle, href: 'https://www.kaggle.com/manavshah2003', label: 'Kaggle' },
     { icon: FaEnvelope, href: 'mailto:manavshah052003@gmail.com', label: 'Email' },
   ];

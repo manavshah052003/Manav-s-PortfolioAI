@@ -2,6 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGraduationCap, FaAward, FaRocket, FaBrain } from 'react-icons/fa';
 
+
+
+
+
+
 const About = () => {
   const achievements = [
     {
