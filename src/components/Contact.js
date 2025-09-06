@@ -29,7 +29,7 @@ const Contact = () => {
     try {
       // EmailJS configuration
           const serviceId = 'service_etgcyb7'; // Replace with your service ID
-          const templateId = 'template_9jq8qc6'; // Your template ID
+          const templateId = 'template_wfd629e'; // Your template ID
           const publicKey = 'UOuEw403z_57zXbXd'; // Replace with your public key
             
       // Send email using EmailJS
@@ -81,7 +81,7 @@ const Contact = () => {
       icon: HiLocationMarker,
       title: "Location",
       value: "Ahmedabad, Gujarat, India",
-      link: "https://maps.google.com/?q=Gandhinagar,Gujarat,India",
+      link: "https://maps.app.goo.gl/MjK2PzCDRdjoKFtn9",
       color: "neon-cyan"
     }
   ];
