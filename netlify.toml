@@ -8,4 +8,7 @@
   status = 200
 
 [build.environment]
+  REACT_APP_EMAILJS_SERVICE_ID = "service_etgcyb7"
+  REACT_APP_EMAILJS_TEMPLATE_ID = "template_wfd629e"
+  REACT_APP_EMAILJS_PUBLIC_KEY = "UOuEw403z_57zXbXd"
   NODE_VERSION = "18"

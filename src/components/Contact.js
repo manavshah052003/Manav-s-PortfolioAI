@@ -28,10 +28,10 @@ const Contact = () => {
     
     try {
       // EmailJS configuration
-          const serviceId = 'service_etgcyb7'; // Replace with your service ID
-          const templateId = 'template_wfd629e'; // Your template ID
-          const publicKey = 'UOuEw403z_57zXbXd'; // Replace with your public key
-            
+          const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+          const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+          const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
+
       // Send email using EmailJS
       await emailjs.send(
         serviceId,
