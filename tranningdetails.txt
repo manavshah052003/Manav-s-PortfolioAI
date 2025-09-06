@@ -1,0 +1,1320 @@
+Building or loading dataset...
+Loading preprocessed dataset from sleep_project_outputs/manav_with_maps.pklll
+Dataset shapes: (59965, 8, 64, 64) (59965,)
+Classes: ['N1' 'N2' 'N3' 'R' 'W']
+
+--- Training CNN ---
+Found existing checkpoint for CNN. Loading to resume training or evaluate.
+Resumed CNN from epoch 10 with val_acc=0.8318
+Epoch 11/35 | Model: CNN
+                                                        
+Train loss: 0.4259 | Train acc: 0.8300
+Val loss: 0.4878 | Val acc: 0.8170
+Epoch 12/35 | Model: CNN
+                                                        
+Train loss: 0.4095 | Train acc: 0.8401
+Val loss: 0.4220 | Val acc: 0.8363
+Checkpoint saved for CNN at epoch 12 with val_acc=0.8363
+Epoch 13/35 | Model: CNN
+                                                        
+Train loss: 0.3952 | Train acc: 0.8432
+Val loss: 0.3918 | Val acc: 0.8484
+Checkpoint saved for CNN at epoch 13 with val_acc=0.8484
+Epoch 14/35 | Model: CNN
+                                                        
+Train loss: 0.3766 | Train acc: 0.8509
+Val loss: 0.4016 | Val acc: 0.8459
+Epoch 15/35 | Model: CNN
+                                                        
+Train loss: 0.3689 | Train acc: 0.8544
+Val loss: 0.4177 | Val acc: 0.8457
+Epoch 16/35 | Model: CNN
+                                                        
+Train loss: 0.3536 | Train acc: 0.8590
+Val loss: 0.5080 | Val acc: 0.8127
+Epoch 17/35 | Model: CNN
+                                                        
+Train loss: 0.3393 | Train acc: 0.8654
+Val loss: 0.5956 | Val acc: 0.7857
+Epoch 18/35 | Model: CNN
+                                                        
+Train loss: 0.2982 | Train acc: 0.8810
+Val loss: 0.3556 | Val acc: 0.8690
+Checkpoint saved for CNN at epoch 18 with val_acc=0.8690
+Epoch 19/35 | Model: CNN
+                                                        
+Train loss: 0.2842 | Train acc: 0.8866
+Val loss: 0.3633 | Val acc: 0.8587
+Epoch 20/35 | Model: CNN
+                                                        
+Train loss: 0.2731 | Train acc: 0.8893
+Val loss: 0.4386 | Val acc: 0.8570
+Epoch 21/35 | Model: CNN
+                                                        
+Train loss: 0.2776 | Train acc: 0.8899
+Val loss: 0.3820 | Val acc: 0.8650
+Epoch 22/35 | Model: CNN
+                                                        
+Train loss: 0.2652 | Train acc: 0.8949
+Val loss: 0.4350 | Val acc: 0.8557
+Epoch 23/35 | Model: CNN
+                                                        
+Train loss: 0.2364 | Train acc: 0.9063
+Val loss: 0.3831 | Val acc: 0.8738
+Checkpoint saved for CNN at epoch 23 with val_acc=0.8738
+Epoch 24/35 | Model: CNN
+                                                        
+Train loss: 0.2299 | Train acc: 0.9098
+Val loss: 0.3725 | Val acc: 0.8783
+Checkpoint saved for CNN at epoch 24 with val_acc=0.8783
+Epoch 25/35 | Model: CNN
+                                                        
+Train loss: 0.2184 | Train acc: 0.9145
+Val loss: 0.3942 | Val acc: 0.8719
+Epoch 26/35 | Model: CNN
+                                                        
+Train loss: 0.2119 | Train acc: 0.9177
+Val loss: 0.4535 | Val acc: 0.8542
+Epoch 27/35 | Model: CNN
+                                                        
+Train loss: 0.1887 | Train acc: 0.9262
+Val loss: 0.4173 | Val acc: 0.8735
+Epoch 28/35 | Model: CNN
+                                                        
+Train loss: 0.1816 | Train acc: 0.9290
+Val loss: 0.3969 | Val acc: 0.8779
+Epoch 29/35 | Model: CNN
+                                                        
+Train loss: 0.1790 | Train acc: 0.9311
+Val loss: 0.3995 | Val acc: 0.8808
+Checkpoint saved for CNN at epoch 29 with val_acc=0.8808
+Epoch 30/35 | Model: CNN
+                                                        
+Train loss: 0.1728 | Train acc: 0.9323
+Val loss: 0.4228 | Val acc: 0.8772
+Epoch 31/35 | Model: CNN
+                                                        
+Train loss: 0.1550 | Train acc: 0.9409
+Val loss: 0.4403 | Val acc: 0.8769
+Epoch 32/35 | Model: CNN
+                                                        
+Train loss: 0.1504 | Train acc: 0.9417
+Val loss: 0.4003 | Val acc: 0.8860
+Checkpoint saved for CNN at epoch 32 with val_acc=0.8860
+Epoch 33/35 | Model: CNN
+                                                        
+Train loss: 0.1465 | Train acc: 0.9446
+Val loss: 0.4296 | Val acc: 0.8800
+Epoch 34/35 | Model: CNN
+                                                        
+Train loss: 0.1452 | Train acc: 0.9438
+Val loss: 0.4266 | Val acc: 0.8797
+Epoch 35/35 | Model: CNN
+                                                        
+Train loss: 0.1342 | Train acc: 0.9481
+Val loss: 0.4492 | Val acc: 0.8768
+Loaded best model for CNN from epoch 32 with val_acc=0.8860
+                                                      
+CNN trained. Accuracy: 0.8860
+
+--- Training GCN ---
+Epoch 1/35 | Model: GCN
+                                                        
+Train loss: 0.9791 | Train acc: 0.5928
+Val loss: 0.8814 | Val acc: 0.6322
+Checkpoint saved for GCN at epoch 1 with val_acc=0.6322
+Epoch 2/35 | Model: GCN
+                                                        
+Train loss: 0.7428 | Train acc: 0.7086
+Val loss: 1.0257 | Val acc: 0.6158
+Epoch 3/35 | Model: GCN
+                                                        
+Train loss: 0.6692 | Train acc: 0.7348
+Val loss: 0.9703 | Val acc: 0.6439
+Checkpoint saved for GCN at epoch 3 with val_acc=0.6439
+Epoch 4/35 | Model: GCN
+                                                        
+Train loss: 0.6223 | Train acc: 0.7541
+Val loss: 0.7906 | Val acc: 0.6772
+Checkpoint saved for GCN at epoch 4 with val_acc=0.6772
+Epoch 5/35 | Model: GCN
+                                                        
+Train loss: 0.5913 | Train acc: 0.7669
+Val loss: 0.5230 | Val acc: 0.7908
+Checkpoint saved for GCN at epoch 5 with val_acc=0.7908
+Epoch 6/35 | Model: GCN
+                                                        
+Train loss: 0.5679 | Train acc: 0.7758
+Val loss: 0.5548 | Val acc: 0.7835
+Epoch 7/35 | Model: GCN
+                                                        
+Train loss: 0.5464 | Train acc: 0.7835
+Val loss: 0.7353 | Val acc: 0.7318
+Epoch 8/35 | Model: GCN
+                                                        
+Train loss: 0.5292 | Train acc: 0.7934
+Val loss: 0.5491 | Val acc: 0.7910
+Checkpoint saved for GCN at epoch 8 with val_acc=0.7910
+Epoch 9/35 | Model: GCN
+                                                        
+Train loss: 0.5175 | Train acc: 0.7979
+Val loss: 0.5367 | Val acc: 0.7902
+Epoch 10/35 | Model: GCN
+                                                        
+Train loss: 0.4759 | Train acc: 0.8129
+Val loss: 0.4388 | Val acc: 0.8282
+Checkpoint saved for GCN at epoch 10 with val_acc=0.8282
+Epoch 11/35 | Model: GCN
+                                                        
+Train loss: 0.4621 | Train acc: 0.8188
+Val loss: 0.5143 | Val acc: 0.8023
+Epoch 12/35 | Model: GCN
+                                                        
+Train loss: 0.4555 | Train acc: 0.8215
+Val loss: 0.7032 | Val acc: 0.7451
+Epoch 13/35 | Model: GCN
+                                                        
+Train loss: 0.4462 | Train acc: 0.8270
+Val loss: 0.4330 | Val acc: 0.8332
+Checkpoint saved for GCN at epoch 13 with val_acc=0.8332
+Epoch 14/35 | Model: GCN
+                                                        
+Train loss: 0.4359 | Train acc: 0.8296
+Val loss: 0.5843 | Val acc: 0.7779
+Epoch 15/35 | Model: GCN
+                                                        
+Train loss: 0.4296 | Train acc: 0.8332
+Val loss: 0.4221 | Val acc: 0.8351
+Checkpoint saved for GCN at epoch 15 with val_acc=0.8351
+Epoch 16/35 | Model: GCN
+                                                        
+Train loss: 0.4168 | Train acc: 0.8370
+Val loss: 0.4993 | Val acc: 0.8101
+Epoch 17/35 | Model: GCN
+                                                        
+Train loss: 0.4142 | Train acc: 0.8383
+Val loss: 0.5242 | Val acc: 0.7990
+Epoch 18/35 | Model: GCN
+                                                        
+Train loss: 0.3984 | Train acc: 0.8439
+Val loss: 0.4498 | Val acc: 0.8308
+Epoch 19/35 | Model: GCN
+                                                        
+Train loss: 0.3952 | Train acc: 0.8469
+Val loss: 0.6452 | Val acc: 0.7865
+Epoch 20/35 | Model: GCN
+                                                        
+Train loss: 0.3696 | Train acc: 0.8566
+Val loss: 0.4157 | Val acc: 0.8436
+Checkpoint saved for GCN at epoch 20 with val_acc=0.8436
+Epoch 21/35 | Model: GCN
+                                                        
+Train loss: 0.3586 | Train acc: 0.8604
+Val loss: 0.4512 | Val acc: 0.8304
+Epoch 22/35 | Model: GCN
+                                                        
+Train loss: 0.3544 | Train acc: 0.8617
+Val loss: 0.4510 | Val acc: 0.8390
+Epoch 23/35 | Model: GCN
+                                                        
+Train loss: 0.3507 | Train acc: 0.8639
+Val loss: 0.4434 | Val acc: 0.8366
+Epoch 24/35 | Model: GCN
+                                                        
+Train loss: 0.3377 | Train acc: 0.8681
+Val loss: 0.4912 | Val acc: 0.8261
+Epoch 25/35 | Model: GCN
+                                                        
+Train loss: 0.3210 | Train acc: 0.8755
+Val loss: 0.4289 | Val acc: 0.8432
+Epoch 26/35 | Model: GCN
+                                                        
+Train loss: 0.3136 | Train acc: 0.8795
+Val loss: 0.4455 | Val acc: 0.8411
+Epoch 27/35 | Model: GCN
+                                                        
+Train loss: 0.3097 | Train acc: 0.8786
+Val loss: 0.4911 | Val acc: 0.8305
+Epoch 28/35 | Model: GCN
+                                                        
+Train loss: 0.3045 | Train acc: 0.8812
+Val loss: 0.3859 | Val acc: 0.8564
+Checkpoint saved for GCN at epoch 28 with val_acc=0.8564
+Epoch 29/35 | Model: GCN
+                                                        
+Train loss: 0.2952 | Train acc: 0.8846
+Val loss: 0.4743 | Val acc: 0.8382
+Epoch 30/35 | Model: GCN
+                                                        
+Train loss: 0.2955 | Train acc: 0.8851
+Val loss: 0.3935 | Val acc: 0.8604
+Checkpoint saved for GCN at epoch 30 with val_acc=0.8604
+Epoch 31/35 | Model: GCN
+                                                        
+Train loss: 0.2883 | Train acc: 0.8878
+Val loss: 0.4251 | Val acc: 0.8527
+Epoch 32/35 | Model: GCN
+                                                        
+Train loss: 0.2868 | Train acc: 0.8893
+Val loss: 0.4184 | Val acc: 0.8522
+Epoch 33/35 | Model: GCN
+                                                        
+Train loss: 0.2686 | Train acc: 0.8966
+Val loss: 0.3950 | Val acc: 0.8637
+Checkpoint saved for GCN at epoch 33 with val_acc=0.8637
+Epoch 34/35 | Model: GCN
+                                                        
+Train loss: 0.2655 | Train acc: 0.8989
+Val loss: 0.4007 | Val acc: 0.8600
+Epoch 35/35 | Model: GCN
+                                                        
+Train loss: 0.2615 | Train acc: 0.8990
+Val loss: 0.3974 | Val acc: 0.8627
+Loaded best model for GCN from epoch 33 with val_acc=0.8637
+                                                      
+GCN trained. Accuracy: 0.8637
+
+--- Training ViT ---
+Epoch 1/35 | Model: ViT
+                                                        
+Train loss: 1.6205 | Train acc: 0.2462
+Val loss: 1.6038 | Val acc: 0.2617
+Checkpoint saved for ViT at epoch 1 with val_acc=0.2617
+Epoch 2/35 | Model: ViT
+                                                        
+Train loss: 1.6022 | Train acc: 0.2599
+Val loss: 1.6001 | Val acc: 0.2617
+Epoch 3/35 | Model: ViT
+                                                        
+Train loss: 1.6004 | Train acc: 0.2605
+Val loss: 1.6004 | Val acc: 0.2617
+Epoch 4/35 | Model: ViT
+                                                        
+Train loss: 1.5997 | Train acc: 0.2612
+Val loss: 1.5986 | Val acc: 0.2617
+Epoch 5/35 | Model: ViT
+                                                        
+Train loss: 1.5997 | Train acc: 0.2612
+Val loss: 1.5991 | Val acc: 0.2617
+Epoch 6/35 | Model: ViT
+                                                        
+Train loss: 1.5994 | Train acc: 0.2612
+Val loss: 1.5982 | Val acc: 0.2617
+Epoch 7/35 | Model: ViT
+                                                        
+Train loss: 1.5993 | Train acc: 0.2613
+Val loss: 1.5983 | Val acc: 0.2617
+Epoch 8/35 | Model: ViT
+                                                        
+Train loss: 1.5992 | Train acc: 0.2614
+Val loss: 1.5986 | Val acc: 0.2617
+Epoch 9/35 | Model: ViT
+                                                        
+Train loss: 1.5991 | Train acc: 0.2615
+Val loss: 1.5989 | Val acc: 0.2617
+Epoch 10/35 | Model: ViT
+                                                        
+Train loss: 1.5989 | Train acc: 0.2615
+Val loss: 1.5982 | Val acc: 0.2617
+Epoch 11/35 | Model: ViT
+                                                        
+Train loss: 1.5987 | Train acc: 0.2616
+Val loss: 1.5984 | Val acc: 0.2617
+Early stopping triggered for ViT.
+Loaded best model for ViT from epoch 1 with val_acc=0.2617
+                                                      
+ViT trained. Accuracy: 0.2617
+
+--- Training BiLSTM ---
+Epoch 1/35 | Model: BiLSTM
+                                                        
+Train loss: 0.9677 | Train acc: 0.6082
+Val loss: 0.7488 | Val acc: 0.6962
+Checkpoint saved for BiLSTM at epoch 1 with val_acc=0.6962
+Epoch 2/35 | Model: BiLSTM
+                                                        
+Train loss: 0.7271 | Train acc: 0.7086
+Val loss: 0.6141 | Val acc: 0.7540
+Checkpoint saved for BiLSTM at epoch 2 with val_acc=0.7540
+Epoch 3/35 | Model: BiLSTM
+                                                        
+Train loss: 0.6503 | Train acc: 0.7416
+Val loss: 0.5853 | Val acc: 0.7731
+Checkpoint saved for BiLSTM at epoch 3 with val_acc=0.7731
+Epoch 4/35 | Model: BiLSTM
+                                                        
+Train loss: 0.6045 | Train acc: 0.7627
+Val loss: 0.5419 | Val acc: 0.7846
+Checkpoint saved for BiLSTM at epoch 4 with val_acc=0.7846
+Epoch 5/35 | Model: BiLSTM
+                                                        
+Train loss: 0.5723 | Train acc: 0.7705
+Val loss: 0.5269 | Val acc: 0.7914
+Checkpoint saved for BiLSTM at epoch 5 with val_acc=0.7914
+Epoch 6/35 | Model: BiLSTM
+                                                        
+Train loss: 0.5454 | Train acc: 0.7843
+Val loss: 0.5181 | Val acc: 0.7967
+Checkpoint saved for BiLSTM at epoch 6 with val_acc=0.7967
+Epoch 7/35 | Model: BiLSTM
+                                                        
+Train loss: 0.5250 | Train acc: 0.7919
+Val loss: 0.4972 | Val acc: 0.7994
+Checkpoint saved for BiLSTM at epoch 7 with val_acc=0.7994
+Epoch 8/35 | Model: BiLSTM
+                                                        
+Train loss: 0.5066 | Train acc: 0.8000
+Val loss: 0.4721 | Val acc: 0.8101
+Checkpoint saved for BiLSTM at epoch 8 with val_acc=0.8101
+Epoch 9/35 | Model: BiLSTM
+                                                        
+Train loss: 0.4891 | Train acc: 0.8049
+Val loss: 0.5080 | Val acc: 0.8075
+Epoch 10/35 | Model: BiLSTM
+                                                        
+Train loss: 0.4733 | Train acc: 0.8133
+Val loss: 0.4776 | Val acc: 0.8128
+Checkpoint saved for BiLSTM at epoch 10 with val_acc=0.8128
+Epoch 11/35 | Model: BiLSTM
+                                                        
+Train loss: 0.4536 | Train acc: 0.8202
+Val loss: 0.4308 | Val acc: 0.8290
+Checkpoint saved for BiLSTM at epoch 11 with val_acc=0.8290
+Epoch 12/35 | Model: BiLSTM
+                                                        
+Train loss: 0.4405 | Train acc: 0.8259
+Val loss: 0.4297 | Val acc: 0.8292
+Checkpoint saved for BiLSTM at epoch 12 with val_acc=0.8292
+Epoch 13/35 | Model: BiLSTM
+                                                        
+Train loss: 0.4268 | Train acc: 0.8304
+Val loss: 0.4304 | Val acc: 0.8323
+Checkpoint saved for BiLSTM at epoch 13 with val_acc=0.8323
+Epoch 14/35 | Model: BiLSTM
+                                                        
+Train loss: 0.4152 | Train acc: 0.8361
+Val loss: 0.4108 | Val acc: 0.8412
+Checkpoint saved for BiLSTM at epoch 14 with val_acc=0.8412
+Epoch 15/35 | Model: BiLSTM
+                                                        
+Train loss: 0.4012 | Train acc: 0.8398
+Val loss: 0.4645 | Val acc: 0.8172
+Epoch 16/35 | Model: BiLSTM
+                                                        
+Train loss: 0.3886 | Train acc: 0.8456
+Val loss: 0.3937 | Val acc: 0.8459
+Checkpoint saved for BiLSTM at epoch 16 with val_acc=0.8459
+Epoch 17/35 | Model: BiLSTM
+                                                        
+Train loss: 0.3832 | Train acc: 0.8480
+Val loss: 0.4000 | Val acc: 0.8507
+Checkpoint saved for BiLSTM at epoch 17 with val_acc=0.8507
+Epoch 18/35 | Model: BiLSTM
+                                                        
+Train loss: 0.3661 | Train acc: 0.8538
+Val loss: 0.4054 | Val acc: 0.8497
+Epoch 19/35 | Model: BiLSTM
+                                                        
+Train loss: 0.3578 | Train acc: 0.8573
+Val loss: 0.4141 | Val acc: 0.8403
+Epoch 20/35 | Model: BiLSTM
+                                                        
+Train loss: 0.3515 | Train acc: 0.8604
+Val loss: 0.4154 | Val acc: 0.8378
+Epoch 21/35 | Model: BiLSTM
+                                                        
+Train loss: 0.3130 | Train acc: 0.8760
+Val loss: 0.3890 | Val acc: 0.8532
+Checkpoint saved for BiLSTM at epoch 21 with val_acc=0.8532
+Epoch 22/35 | Model: BiLSTM
+                                                        
+Train loss: 0.3012 | Train acc: 0.8820
+Val loss: 0.3719 | Val acc: 0.8598
+Checkpoint saved for BiLSTM at epoch 22 with val_acc=0.8598
+Epoch 23/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2892 | Train acc: 0.8851
+Val loss: 0.3928 | Val acc: 0.8522
+Epoch 24/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2845 | Train acc: 0.8882
+Val loss: 0.3743 | Val acc: 0.8617
+Checkpoint saved for BiLSTM at epoch 24 with val_acc=0.8617
+Epoch 25/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2706 | Train acc: 0.8922
+Val loss: 0.3898 | Val acc: 0.8618
+Checkpoint saved for BiLSTM at epoch 25 with val_acc=0.8618
+Epoch 26/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2681 | Train acc: 0.8959
+Val loss: 0.3814 | Val acc: 0.8657
+Checkpoint saved for BiLSTM at epoch 26 with val_acc=0.8657
+Epoch 27/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2407 | Train acc: 0.9045
+Val loss: 0.3916 | Val acc: 0.8703
+Checkpoint saved for BiLSTM at epoch 27 with val_acc=0.8703
+Epoch 28/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2307 | Train acc: 0.9095
+Val loss: 0.3921 | Val acc: 0.8675
+Epoch 29/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2236 | Train acc: 0.9139
+Val loss: 0.4065 | Val acc: 0.8669
+Epoch 30/35 | Model: BiLSTM
+                                                        
+Train loss: 0.2144 | Train acc: 0.9164
+Val loss: 0.3984 | Val acc: 0.8675
+Epoch 31/35 | Model: BiLSTM
+                                                        
+Train loss: 0.1966 | Train acc: 0.9225
+Val loss: 0.3879 | Val acc: 0.8758
+Checkpoint saved for BiLSTM at epoch 31 with val_acc=0.8758
+Epoch 32/35 | Model: BiLSTM
+                                                        
+Train loss: 0.1890 | Train acc: 0.9275
+Val loss: 0.3900 | Val acc: 0.8789
+Checkpoint saved for BiLSTM at epoch 32 with val_acc=0.8789
+Epoch 33/35 | Model: BiLSTM
+                                                        
+Train loss: 0.1841 | Train acc: 0.9289
+Val loss: 0.3910 | Val acc: 0.8777
+Epoch 34/35 | Model: BiLSTM
+                                                        
+Train loss: 0.1788 | Train acc: 0.9310
+Val loss: 0.4005 | Val acc: 0.8778
+Epoch 35/35 | Model: BiLSTM
+                                                        
+Train loss: 0.1641 | Train acc: 0.9370
+Val loss: 0.4059 | Val acc: 0.8783
+Loaded best model for BiLSTM from epoch 32 with val_acc=0.8789
+                                                      
+BiLSTM trained. Accuracy: 0.8789
+
+--- Training CNN_GCN_Fusion ---
+Epoch 1/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.8800 | Train acc: 0.6398
+Val loss: 1.5111 | Val acc: 0.4315
+Checkpoint saved for CNN_GCN_Fusion at epoch 1 with val_acc=0.4315
+Epoch 2/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.6735 | Train acc: 0.7291
+Val loss: 0.6402 | Val acc: 0.7520
+Checkpoint saved for CNN_GCN_Fusion at epoch 2 with val_acc=0.7520
+Epoch 3/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.6123 | Train acc: 0.7561
+Val loss: 0.5403 | Val acc: 0.7747
+Checkpoint saved for CNN_GCN_Fusion at epoch 3 with val_acc=0.7747
+Epoch 4/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.5807 | Train acc: 0.7704
+Val loss: 0.5340 | Val acc: 0.7886
+Checkpoint saved for CNN_GCN_Fusion at epoch 4 with val_acc=0.7886
+Epoch 5/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.5431 | Train acc: 0.7853
+Val loss: 0.5967 | Val acc: 0.7701
+Epoch 6/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.5172 | Train acc: 0.7941
+Val loss: 0.5081 | Val acc: 0.7959
+Checkpoint saved for CNN_GCN_Fusion at epoch 6 with val_acc=0.7959
+Epoch 7/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.4987 | Train acc: 0.8032
+Val loss: 0.4820 | Val acc: 0.8023
+Checkpoint saved for CNN_GCN_Fusion at epoch 7 with val_acc=0.8023
+Epoch 8/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.4788 | Train acc: 0.8112
+Val loss: 0.5693 | Val acc: 0.7843
+Epoch 9/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.4585 | Train acc: 0.8173
+Val loss: 0.6033 | Val acc: 0.7668
+Epoch 10/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.4444 | Train acc: 0.8244
+Val loss: 0.5291 | Val acc: 0.8054
+Checkpoint saved for CNN_GCN_Fusion at epoch 10 with val_acc=0.8054
+Epoch 11/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.4324 | Train acc: 0.8287
+Val loss: 0.5308 | Val acc: 0.8019
+Epoch 12/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.3871 | Train acc: 0.8473
+Val loss: 0.4059 | Val acc: 0.8422
+Checkpoint saved for CNN_GCN_Fusion at epoch 12 with val_acc=0.8422
+Epoch 13/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.3714 | Train acc: 0.8538
+Val loss: 0.3981 | Val acc: 0.8492
+Checkpoint saved for CNN_GCN_Fusion at epoch 13 with val_acc=0.8492
+Epoch 14/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.3577 | Train acc: 0.8586
+Val loss: 0.4413 | Val acc: 0.8332
+Epoch 15/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.3485 | Train acc: 0.8621
+Val loss: 0.5903 | Val acc: 0.7849
+Epoch 16/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.3332 | Train acc: 0.8675
+Val loss: 0.4835 | Val acc: 0.8263
+Epoch 17/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.3262 | Train acc: 0.8700
+Val loss: 0.4421 | Val acc: 0.8474
+Epoch 18/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2929 | Train acc: 0.8841
+Val loss: 0.3715 | Val acc: 0.8613
+Checkpoint saved for CNN_GCN_Fusion at epoch 18 with val_acc=0.8613
+Epoch 19/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2833 | Train acc: 0.8874
+Val loss: 0.4147 | Val acc: 0.8510
+Epoch 20/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2706 | Train acc: 0.8936
+Val loss: 0.4412 | Val acc: 0.8520
+Epoch 21/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2620 | Train acc: 0.8982
+Val loss: 0.4454 | Val acc: 0.8467
+Epoch 22/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2534 | Train acc: 0.8989
+Val loss: 0.4832 | Val acc: 0.8383
+Epoch 23/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2305 | Train acc: 0.9101
+Val loss: 0.4004 | Val acc: 0.8668
+Checkpoint saved for CNN_GCN_Fusion at epoch 23 with val_acc=0.8668
+Epoch 24/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2211 | Train acc: 0.9142
+Val loss: 0.3994 | Val acc: 0.8731
+Checkpoint saved for CNN_GCN_Fusion at epoch 24 with val_acc=0.8731
+Epoch 25/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2112 | Train acc: 0.9196
+Val loss: 0.4272 | Val acc: 0.8673
+Epoch 26/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.2083 | Train acc: 0.9189
+Val loss: 0.4301 | Val acc: 0.8676
+Epoch 27/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1886 | Train acc: 0.9274
+Val loss: 0.3996 | Val acc: 0.8735
+Checkpoint saved for CNN_GCN_Fusion at epoch 27 with val_acc=0.8735
+Epoch 28/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1797 | Train acc: 0.9302
+Val loss: 0.4153 | Val acc: 0.8753
+Checkpoint saved for CNN_GCN_Fusion at epoch 28 with val_acc=0.8753
+Epoch 29/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1765 | Train acc: 0.9320
+Val loss: 0.4431 | Val acc: 0.8688
+Epoch 30/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1723 | Train acc: 0.9346
+Val loss: 0.4323 | Val acc: 0.8775
+Checkpoint saved for CNN_GCN_Fusion at epoch 30 with val_acc=0.8775
+Epoch 31/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1608 | Train acc: 0.9379
+Val loss: 0.4369 | Val acc: 0.8801
+Checkpoint saved for CNN_GCN_Fusion at epoch 31 with val_acc=0.8801
+Epoch 32/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1549 | Train acc: 0.9410
+Val loss: 0.4346 | Val acc: 0.8816
+Checkpoint saved for CNN_GCN_Fusion at epoch 32 with val_acc=0.8816
+Epoch 33/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1506 | Train acc: 0.9411
+Val loss: 0.4349 | Val acc: 0.8813
+Epoch 34/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1468 | Train acc: 0.9438
+Val loss: 0.4606 | Val acc: 0.8761
+Epoch 35/35 | Model: CNN_GCN_Fusion
+                                                        
+Train loss: 0.1401 | Train acc: 0.9467
+Val loss: 0.4448 | Val acc: 0.8834
+Checkpoint saved for CNN_GCN_Fusion at epoch 35 with val_acc=0.8834
+Loaded best model for CNN_GCN_Fusion from epoch 35 with val_acc=0.8834
+                                                      
+CNN_GCN_Fusion trained. Accuracy: 0.8834
+
+--- Training CNN_BiLSTM_Fusion ---
+Epoch 1/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.8724 | Train acc: 0.6432
+Val loss: 0.6937 | Val acc: 0.7172
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 1 with val_acc=0.7172
+Epoch 2/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.6662 | Train acc: 0.7365
+Val loss: 0.6679 | Val acc: 0.7294
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 2 with val_acc=0.7294
+Epoch 3/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.6073 | Train acc: 0.7588
+Val loss: 0.5760 | Val acc: 0.7688
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 3 with val_acc=0.7688
+Epoch 4/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.5641 | Train acc: 0.7749
+Val loss: 0.5344 | Val acc: 0.7821
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 4 with val_acc=0.7821
+Epoch 5/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.5353 | Train acc: 0.7880
+Val loss: 0.6375 | Val acc: 0.7383
+Epoch 6/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.5101 | Train acc: 0.7969
+Val loss: 0.8651 | Val acc: 0.6831
+Epoch 7/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.4874 | Train acc: 0.8080
+Val loss: 0.4957 | Val acc: 0.8091
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 7 with val_acc=0.8091
+Epoch 8/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.4651 | Train acc: 0.8151
+Val loss: 0.4477 | Val acc: 0.8281
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 8 with val_acc=0.8281
+Epoch 9/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.4528 | Train acc: 0.8221
+Val loss: 0.6019 | Val acc: 0.7714
+Epoch 10/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.4332 | Train acc: 0.8295
+Val loss: 0.4437 | Val acc: 0.8329
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 10 with val_acc=0.8329
+Epoch 11/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.4185 | Train acc: 0.8348
+Val loss: 0.5100 | Val acc: 0.8060
+Epoch 12/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.4028 | Train acc: 0.8408
+Val loss: 0.4860 | Val acc: 0.8178
+Epoch 13/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.3894 | Train acc: 0.8462
+Val loss: 0.4572 | Val acc: 0.8345
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 13 with val_acc=0.8345
+Epoch 14/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.3805 | Train acc: 0.8492
+Val loss: 0.8184 | Val acc: 0.7179
+Epoch 15/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.3391 | Train acc: 0.8665
+Val loss: 0.3720 | Val acc: 0.8576
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 15 with val_acc=0.8576
+Epoch 16/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.3248 | Train acc: 0.8709
+Val loss: 0.3948 | Val acc: 0.8512
+Epoch 17/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.3115 | Train acc: 0.8781
+Val loss: 0.4704 | Val acc: 0.8287
+Epoch 18/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.3001 | Train acc: 0.8811
+Val loss: 0.4023 | Val acc: 0.8575
+Epoch 19/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.2902 | Train acc: 0.8844
+Val loss: 0.3810 | Val acc: 0.8634
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 19 with val_acc=0.8634
+Epoch 20/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.2607 | Train acc: 0.8979
+Val loss: 0.3807 | Val acc: 0.8676
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 20 with val_acc=0.8676
+Epoch 21/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.2493 | Train acc: 0.9011
+Val loss: 0.4062 | Val acc: 0.8631
+Epoch 22/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.2431 | Train acc: 0.9033
+Val loss: 0.3819 | Val acc: 0.8723
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 22 with val_acc=0.8723
+Epoch 23/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.2313 | Train acc: 0.9093
+Val loss: 0.3953 | Val acc: 0.8679
+Epoch 24/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.2065 | Train acc: 0.9191
+Val loss: 0.3783 | Val acc: 0.8790
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 24 with val_acc=0.8790
+Epoch 25/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1983 | Train acc: 0.9234
+Val loss: 0.4363 | Val acc: 0.8687
+Epoch 26/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1917 | Train acc: 0.9258
+Val loss: 0.3813 | Val acc: 0.8786
+Epoch 27/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1854 | Train acc: 0.9268
+Val loss: 0.3814 | Val acc: 0.8807
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 27 with val_acc=0.8807
+Epoch 28/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1701 | Train acc: 0.9340
+Val loss: 0.3854 | Val acc: 0.8818
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 28 with val_acc=0.8818
+Epoch 29/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1606 | Train acc: 0.9387
+Val loss: 0.3886 | Val acc: 0.8854
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 29 with val_acc=0.8854
+Epoch 30/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1593 | Train acc: 0.9379
+Val loss: 0.4111 | Val acc: 0.8843
+Epoch 31/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1542 | Train acc: 0.9410
+Val loss: 0.3893 | Val acc: 0.8887
+Checkpoint saved for CNN_BiLSTM_Fusion at epoch 31 with val_acc=0.8887
+Epoch 32/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1435 | Train acc: 0.9454
+Val loss: 0.4058 | Val acc: 0.8859
+Epoch 33/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1368 | Train acc: 0.9471
+Val loss: 0.4379 | Val acc: 0.8830
+Epoch 34/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1367 | Train acc: 0.9469
+Val loss: 0.4357 | Val acc: 0.8819
+Epoch 35/35 | Model: CNN_BiLSTM_Fusion
+                                                        
+Train loss: 0.1313 | Train acc: 0.9507
+Val loss: 0.4172 | Val acc: 0.8843
+Loaded best model for CNN_BiLSTM_Fusion from epoch 31 with val_acc=0.8887
+                                                      
+CNN_BiLSTM_Fusion trained. Accuracy: 0.8887
+
+--- Training CNN_ViT_Fusion ---
+Epoch 1/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.8921 | Train acc: 0.6348
+Val loss: 0.9935 | Val acc: 0.6498
+Checkpoint saved for CNN_ViT_Fusion at epoch 1 with val_acc=0.6498
+Epoch 2/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.6719 | Train acc: 0.7320
+Val loss: 0.7009 | Val acc: 0.7242
+Checkpoint saved for CNN_ViT_Fusion at epoch 2 with val_acc=0.7242
+Epoch 3/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.6085 | Train acc: 0.7559
+Val loss: 0.7064 | Val acc: 0.7353
+Checkpoint saved for CNN_ViT_Fusion at epoch 3 with val_acc=0.7353
+Epoch 4/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.5748 | Train acc: 0.7700
+Val loss: 0.6129 | Val acc: 0.7570
+Checkpoint saved for CNN_ViT_Fusion at epoch 4 with val_acc=0.7570
+Epoch 5/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.5437 | Train acc: 0.7852
+Val loss: 0.8149 | Val acc: 0.6734
+Epoch 6/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.5196 | Train acc: 0.7936
+Val loss: 0.5067 | Val acc: 0.8035
+Checkpoint saved for CNN_ViT_Fusion at epoch 6 with val_acc=0.8035
+Epoch 7/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.4925 | Train acc: 0.8053
+Val loss: 0.5387 | Val acc: 0.7861
+Epoch 8/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.4798 | Train acc: 0.8116
+Val loss: 0.6357 | Val acc: 0.7371
+Epoch 9/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.4575 | Train acc: 0.8173
+Val loss: 0.5193 | Val acc: 0.8051
+Checkpoint saved for CNN_ViT_Fusion at epoch 9 with val_acc=0.8051
+Epoch 10/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.4431 | Train acc: 0.8248
+Val loss: 0.4559 | Val acc: 0.8267
+Checkpoint saved for CNN_ViT_Fusion at epoch 10 with val_acc=0.8267
+Epoch 11/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.4270 | Train acc: 0.8309
+Val loss: 0.4493 | Val acc: 0.8225
+Epoch 12/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.4134 | Train acc: 0.8369
+Val loss: 0.4869 | Val acc: 0.8171
+Epoch 13/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.4070 | Train acc: 0.8399
+Val loss: 0.4071 | Val acc: 0.8387
+Checkpoint saved for CNN_ViT_Fusion at epoch 13 with val_acc=0.8387
+Epoch 14/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3868 | Train acc: 0.8472
+Val loss: 0.4421 | Val acc: 0.8315
+Epoch 15/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3740 | Train acc: 0.8536
+Val loss: 0.4121 | Val acc: 0.8449
+Checkpoint saved for CNN_ViT_Fusion at epoch 15 with val_acc=0.8449
+Epoch 16/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3628 | Train acc: 0.8557
+Val loss: 0.4209 | Val acc: 0.8519
+Checkpoint saved for CNN_ViT_Fusion at epoch 16 with val_acc=0.8519
+Epoch 17/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3503 | Train acc: 0.8609
+Val loss: 0.3755 | Val acc: 0.8610
+Checkpoint saved for CNN_ViT_Fusion at epoch 17 with val_acc=0.8610
+Epoch 18/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3373 | Train acc: 0.8669
+Val loss: 0.4366 | Val acc: 0.8416
+Epoch 19/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3287 | Train acc: 0.8710
+Val loss: 0.4192 | Val acc: 0.8485
+Epoch 20/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3161 | Train acc: 0.8754
+Val loss: 0.3931 | Val acc: 0.8598
+Epoch 21/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.3052 | Train acc: 0.8794
+Val loss: 0.3847 | Val acc: 0.8618
+Checkpoint saved for CNN_ViT_Fusion at epoch 21 with val_acc=0.8618
+Epoch 22/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.2713 | Train acc: 0.8924
+Val loss: 0.4046 | Val acc: 0.8651
+Checkpoint saved for CNN_ViT_Fusion at epoch 22 with val_acc=0.8651
+Epoch 23/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.2563 | Train acc: 0.9005
+Val loss: 0.4150 | Val acc: 0.8649
+Epoch 24/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.2480 | Train acc: 0.9032
+Val loss: 0.4008 | Val acc: 0.8643
+Epoch 25/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.2378 | Train acc: 0.9070
+Val loss: 0.4322 | Val acc: 0.8559
+Epoch 26/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.2095 | Train acc: 0.9199
+Val loss: 0.3824 | Val acc: 0.8762
+Checkpoint saved for CNN_ViT_Fusion at epoch 26 with val_acc=0.8762
+Epoch 27/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.2051 | Train acc: 0.9217
+Val loss: 0.3903 | Val acc: 0.8737
+Epoch 28/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1947 | Train acc: 0.9239
+Val loss: 0.4149 | Val acc: 0.8708
+Epoch 29/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1908 | Train acc: 0.9264
+Val loss: 0.3765 | Val acc: 0.8805
+Checkpoint saved for CNN_ViT_Fusion at epoch 29 with val_acc=0.8805
+Epoch 30/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1661 | Train acc: 0.9352
+Val loss: 0.4407 | Val acc: 0.8757
+Epoch 31/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1622 | Train acc: 0.9376
+Val loss: 0.4034 | Val acc: 0.8843
+Checkpoint saved for CNN_ViT_Fusion at epoch 31 with val_acc=0.8843
+Epoch 32/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1547 | Train acc: 0.9402
+Val loss: 0.4329 | Val acc: 0.8823
+Epoch 33/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1505 | Train acc: 0.9424
+Val loss: 0.4399 | Val acc: 0.8769
+Epoch 34/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1380 | Train acc: 0.9478
+Val loss: 0.4483 | Val acc: 0.8835
+Epoch 35/35 | Model: CNN_ViT_Fusion
+                                                        
+Train loss: 0.1349 | Train acc: 0.9492
+Val loss: 0.4411 | Val acc: 0.8879
+Checkpoint saved for CNN_ViT_Fusion at epoch 35 with val_acc=0.8879
+Loaded best model for CNN_ViT_Fusion from epoch 35 with val_acc=0.8879
+                                                      
+CNN_ViT_Fusion trained. Accuracy: 0.8879
+
+--- Training ViT_BiLSTM_Fusion ---
+Epoch 1/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 1.0594 | Train acc: 0.5566
+Val loss: 0.8190 | Val acc: 0.6636
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 1 with val_acc=0.6636
+Epoch 2/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.8287 | Train acc: 0.6658
+Val loss: 0.6851 | Val acc: 0.7237
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 2 with val_acc=0.7237
+Epoch 3/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.7308 | Train acc: 0.7092
+Val loss: 0.6221 | Val acc: 0.7471
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 3 with val_acc=0.7471
+Epoch 4/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.6869 | Train acc: 0.7232
+Val loss: 0.6509 | Val acc: 0.7436
+Epoch 5/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.6478 | Train acc: 0.7405
+Val loss: 0.5663 | Val acc: 0.7770
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 5 with val_acc=0.7770
+Epoch 6/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.6173 | Train acc: 0.7550
+Val loss: 0.5793 | Val acc: 0.7684
+Epoch 7/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.5978 | Train acc: 0.7623
+Val loss: 0.5829 | Val acc: 0.7635
+Epoch 8/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.5742 | Train acc: 0.7718
+Val loss: 0.5618 | Val acc: 0.7784
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 8 with val_acc=0.7784
+Epoch 9/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.5550 | Train acc: 0.7801
+Val loss: 0.5221 | Val acc: 0.7898
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 9 with val_acc=0.7898
+Epoch 10/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.5367 | Train acc: 0.7854
+Val loss: 0.5532 | Val acc: 0.7805
+Epoch 11/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.5274 | Train acc: 0.7914
+Val loss: 0.4943 | Val acc: 0.8058
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 11 with val_acc=0.8058
+Epoch 12/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.5141 | Train acc: 0.7950
+Val loss: 0.5144 | Val acc: 0.7898
+Epoch 13/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.4995 | Train acc: 0.8021
+Val loss: 0.5557 | Val acc: 0.7795
+Epoch 14/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.4892 | Train acc: 0.8065
+Val loss: 0.5367 | Val acc: 0.7925
+Epoch 15/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.4744 | Train acc: 0.8146
+Val loss: 0.5268 | Val acc: 0.7952
+Epoch 16/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.4360 | Train acc: 0.8273
+Val loss: 0.4422 | Val acc: 0.8284
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 16 with val_acc=0.8284
+Epoch 17/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.4254 | Train acc: 0.8318
+Val loss: 0.4522 | Val acc: 0.8220
+Epoch 18/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.4139 | Train acc: 0.8361
+Val loss: 0.4601 | Val acc: 0.8198
+Epoch 19/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.4057 | Train acc: 0.8403
+Val loss: 0.4332 | Val acc: 0.8315
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 19 with val_acc=0.8315
+Epoch 20/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.3957 | Train acc: 0.8424
+Val loss: 0.4523 | Val acc: 0.8227
+Epoch 21/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.3891 | Train acc: 0.8453
+Val loss: 0.4767 | Val acc: 0.8217
+Epoch 22/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.3770 | Train acc: 0.8493
+Val loss: 0.4048 | Val acc: 0.8452
+Checkpoint saved for ViT_BiLSTM_Fusion at epoch 22 with val_acc=0.8452
+Epoch 23/35 | Model: ViT_BiLSTM_Fusion
+                                                        
+Train loss: 0.3681 | Train acc: 0.8550
+Val loss: 0.4168 | Val acc: 0.8372
+Epoch 24/35 | Model: ViT_BiLSTM_Fusion
+
+Epoch 32/35 | Model: ViT_BiLSTM_Fusion
+Train loss: 0.2841 | Train acc: 0.8889                                                                                                                                           
+Val loss: 0.3790 | Val acc: 0.8625
+Epoch 33/35 | Model: ViT_BiLSTM_Fusion
+Train loss: 0.2753 | Train acc: 0.8910                                                                                                                                           
+Val loss: 0.4258 | Val acc: 0.8467
+Epoch 34/35 | Model: ViT_BiLSTM_Fusion
+Train loss: 0.2695 | Train acc: 0.8933                                                                                                                                           
+Val loss: 0.3825 | Val acc: 0.8641
+Epoch 35/35 | Model: ViT_BiLSTM_Fusion
+Train loss: 0.2660 | Train acc: 0.8951                                                                                                                                           
+Val loss: 0.4686 | Val acc: 0.8405
+Loaded best model for ViT_BiLSTM_Fusion from epoch 31 with val_acc=0.8652
+ViT_BiLSTM_Fusion trained. Accuracy: 0.8652  
+
+
+
+
+--- Training Hybrid_Fusion ---
+Found existing checkpoint for Hybrid_Fusion. Loading to resume training or evaluate.
+Resumed Hybrid_Fusion from epoch 6 with val_acc=0.7861
+Epoch 7/35 | Model: Hybrid_Fusion
+Train loss: 0.5776 | Train acc: 0.7751                                                                                                                                           
+Val loss: 0.6314 | Val acc: 0.7647
+Epoch 8/35 | Model: Hybrid_Fusion
+Train loss: 0.5534 | Train acc: 0.7842                                                                                                                                           
+Val loss: 0.5553 | Val acc: 0.7807
+Epoch 9/35 | Model: Hybrid_Fusion
+Train loss: 0.5358 | Train acc: 0.7919                                                                                                                                           
+Val loss: 0.5110 | Val acc: 0.7988
+Checkpoint saved for Hybrid_Fusion at epoch 9 with val_acc=0.7988
+Epoch 10/35 | Model: Hybrid_Fusion
+Train loss: 0.5205 | Train acc: 0.7988                                                                                                                                           
+Val loss: 0.4865 | Val acc: 0.8101
+Checkpoint saved for Hybrid_Fusion at epoch 10 with val_acc=0.8101
+Epoch 11/35 | Model: Hybrid_Fusion
+Train loss: 0.5028 | Train acc: 0.8055                                                                                                                                           
+Val loss: 0.5330 | Val acc: 0.7925
+Epoch 12/35 | Model: Hybrid_Fusion
+Train loss: 0.4900 | Train acc: 0.8098                                                                                                                                           
+Val loss: 0.5711 | Val acc: 0.7783
+Epoch 13/35 | Model: Hybrid_Fusion
+Train loss: 0.4784 | Train acc: 0.8164                                                                                                                                           
+Val loss: 0.6451 | Val acc: 0.7652
+Epoch 14/35 | Model: Hybrid_Fusion
+Train loss: 0.4664 | Train acc: 0.8187                                                                                                                                           
+Val loss: 0.5251 | Val acc: 0.8000
+Epoch 15/35 | Model: Hybrid_Fusion
+Train loss: 0.4302 | Train acc: 0.8336                                                                                                                                           
+Val loss: 0.4349 | Val acc: 0.8321
+Checkpoint saved for Hybrid_Fusion at epoch 15 with val_acc=0.8321
+Epoch 16/35 | Model: Hybrid_Fusion
+Train loss: 0.4151 | Train acc: 0.8402                                                                                                                                           
+Val loss: 0.4295 | Val acc: 0.8333
+Checkpoint saved for Hybrid_Fusion at epoch 16 with val_acc=0.8333
+Epoch 17/35 | Model: Hybrid_Fusion
+Train loss: 0.4076 | Train acc: 0.8447                                                                                                                                           
+Val loss: 0.4293 | Val acc: 0.8354
+Checkpoint saved for Hybrid_Fusion at epoch 17 with val_acc=0.8354
+Epoch 18/35 | Model: Hybrid_Fusion
+Train loss: 0.3953 | Train acc: 0.8462                                                                                                                                           
+Val loss: 0.4086 | Val acc: 0.8441
+Checkpoint saved for Hybrid_Fusion at epoch 18 with val_acc=0.8441
+Epoch 19/35 | Model: Hybrid_Fusion
+Train loss: 0.3830 | Train acc: 0.8510                                                                                                                                           
+Val loss: 0.4251 | Val acc: 0.8353
+Epoch 20/35 | Model: Hybrid_Fusion
+Train loss: 0.3790 | Train acc: 0.8524                                                                                                                                           
+Val loss: 0.4295 | Val acc: 0.8407
+Epoch 21/35 | Model: Hybrid_Fusion
+Train loss: 0.3714 | Train acc: 0.8571                                                                                                                                           
+Val loss: 0.3963 | Val acc: 0.8533
+Checkpoint saved for Hybrid_Fusion at epoch 21 with val_acc=0.8533
+Epoch 22/35 | Model: Hybrid_Fusion
+Train loss: 0.3662 | Train acc: 0.8601                                                                                                                                           
+Val loss: 0.4203 | Val acc: 0.8387
+Epoch 23/35 | Model: Hybrid_Fusion
+Train loss: 0.3544 | Train acc: 0.8630                                                                                                                                           
+Val loss: 0.4012 | Val acc: 0.8507
+Epoch 24/35 | Model: Hybrid_Fusion
+Train loss: 0.3501 | Train acc: 0.8629                                                                                                                                           
+Val loss: 0.4903 | Val acc: 0.8228
+Epoch 25/35 | Model: Hybrid_Fusion
+Train loss: 0.3431 | Train acc: 0.8686                                                                                                                                           
+Val loss: 0.4075 | Val acc: 0.8472
+Epoch 26/35 | Model: Hybrid_Fusion
+Train loss: 0.3183 | Train acc: 0.8773                                                                                                                                           
+Val loss: 0.3775 | Val acc: 0.8623
+Checkpoint saved for Hybrid_Fusion at epoch 26 with val_acc=0.8623
+Epoch 27/35 | Model: Hybrid_Fusion
+Train loss: 0.3033 | Train acc: 0.8823                                                                                                                                           
+Val loss: 0.4129 | Val acc: 0.8534
+Epoch 28/35 | Model: Hybrid_Fusion
+Train loss: 0.2963 | Train acc: 0.8850                                                                                                                                           
+Val loss: 0.4775 | Val acc: 0.8309
+Epoch 29/35 | Model: Hybrid_Fusion
+Train loss: 0.2913 | Train acc: 0.8873                                                                                                                                           
+Val loss: 0.3801 | Val acc: 0.8636
+Checkpoint saved for Hybrid_Fusion at epoch 29 with val_acc=0.8636
+Epoch 30/35 | Model: Hybrid_Fusion
+Train loss: 0.2854 | Train acc: 0.8906                                                                                                                                           
+Val loss: 0.3893 | Val acc: 0.8656
+Checkpoint saved for Hybrid_Fusion at epoch 30 with val_acc=0.8656
+Epoch 31/35 | Model: Hybrid_Fusion
+Train loss: 0.2640 | Train acc: 0.8992                                                                                                                                           
+Val loss: 0.3790 | Val acc: 0.8684
+Checkpoint saved for Hybrid_Fusion at epoch 31 with val_acc=0.8684
+Epoch 32/35 | Model: Hybrid_Fusion
+Train loss: 0.2556 | Train acc: 0.9001                                                                                                                                           
+Val loss: 0.3745 | Val acc: 0.8660
+Epoch 33/35 | Model: Hybrid_Fusion
+Train loss: 0.2515 | Train acc: 0.9035                                                                                                                                           
+Val loss: 0.3821 | Val acc: 0.8699
+Checkpoint saved for Hybrid_Fusion at epoch 33 with val_acc=0.8699
+Epoch 34/35 | Model: Hybrid_Fusion
+Train loss: 0.2491 | Train acc: 0.9042                                                                                                                                           
+Val loss: 0.4057 | Val acc: 0.8614
+Epoch 35/35 | Model: Hybrid_Fusion
+Train loss: 0.2417 | Train acc: 0.9079                                                                                                                                           
+Val loss: 0.3695 | Val acc: 0.8727
+Checkpoint saved for Hybrid_Fusion at epoch 35 with val_acc=0.8727
+Loaded best model for Hybrid_Fusion from epoch 35 with val_acc=0.8727
+Hybrid_Fusion trained. Accuracy: 0.8727                                                                                                                                          
+
+--- Training Ensemble Model ---
+Optimizing ensemble weights for F1-score with informed initialization...
+Optimized ensemble weights: {'CNN': '0.1247', 'GCN': '0.1220', 'ViT': '0.0116', 'BiLSTM': '0.1238', 'CNN_GCN_Fusion': '0.1242', 'CNN_BiLSTM_Fusion': '0.1248', 'CNN_ViT_Fusion': '0.1248', 'ViT_BiLSTM_Fusion': '0.1216', 'Hybrid_Fusion': '0.1225'}
+
+Ensemble Model Classification Report:
+              precision    recall  f1-score   support
+
+          N1       0.83      0.89      0.86      2280
+          N2       0.88      0.85      0.87      3138
+          N3       0.93      0.93      0.93      2247
+           R       0.95      0.92      0.93      2094
+           W       0.95      0.95      0.95      2234
+
+    accuracy                           0.90     11993
+   macro avg       0.91      0.91      0.91     11993
+weighted avg       0.90      0.90      0.90     11993
+
+Ensemble Accuracy: 0.9036
+Ensemble F1-score (macro): 0.9075
+Ensemble Kappa: 0.8788
+
+--- Model Comparison Summary ---
+Model: CNN
+  Accuracy: 0.8874
+  F1: 0.8913
+  Kappa: 0.8583
+  Precision: 0.8916
+  Recall: 0.8914
+--------------------
+Model: GCN
+  Accuracy: 0.8675
+  F1: 0.8724
+  Kappa: 0.8335
+  Precision: 0.8757
+  Recall: 0.8714
+--------------------
+Model: ViT
+  Accuracy: 0.2617
+  F1: 0.0830
+  Kappa: 0.0000
+  Precision: 0.0523
+  Recall: 0.2000
+--------------------
+Model: BiLSTM
+  Accuracy: 0.8813
+  F1: 0.8851
+  Kappa: 0.8510
+  Precision: 0.8830
+  Recall: 0.8882
+--------------------
+Model: CNN_GCN_Fusion
+  Accuracy: 0.8834
+  F1: 0.8880
+  Kappa: 0.8536
+  Precision: 0.8880
+  Recall: 0.8895
+--------------------
+Model: CNN_BiLSTM_Fusion
+  Accuracy: 0.8887
+  F1: 0.8924
+  Kappa: 0.8600
+  Precision: 0.8930
+  Recall: 0.8919
+--------------------
+Model: CNN_ViT_Fusion
+  Accuracy: 0.8879
+  F1: 0.8923
+  Kappa: 0.8590
+  Precision: 0.8930
+  Recall: 0.8926
+--------------------
+Model: ViT_BiLSTM_Fusion
+  Accuracy: 0.8652
+  F1: 0.8691
+  Kappa: 0.8303
+  Precision: 0.8718
+  Recall: 0.8670
+--------------------
+Model: Hybrid_Fusion
+  Accuracy: 0.8727
+  F1: 0.8761
+  Kappa: 0.8398
+  Precision: 0.8763
+  Recall: 0.8760
+--------------------
+Model: Ensemble
+  Accuracy: 0.9036
+  F1: 0.9075
+  Kappa: 0.8788
+  Precision: 0.9077
+  Recall: 0.9080
+--------------------
+
+--- Best Model Selected: Ensemble (F1-score: 0.9075) ---
+
+Generating final plots for the best model...
+
+Raw Predictions Classification Report (Best Model):
+              precision    recall  f1-score   support
+
+          N1       0.83      0.89      0.86      2280
+          N2       0.88      0.85      0.87      3138
+          N3       0.93      0.93      0.93      2247
+           R       0.95      0.92      0.93      2094
+           W       0.95      0.95      0.95      2234
+
+    accuracy                           0.90     11993
+   macro avg       0.91      0.91      0.91     11993
+weighted avg       0.90      0.90      0.90     11993

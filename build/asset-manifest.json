@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ai-engineer-portfolio/static/css/main.281d4f5c.css",
+    "main.js": "/ai-engineer-portfolio/static/js/main.c3e7a973.js",
+    "index.html": "/ai-engineer-portfolio/index.html",
+    "main.281d4f5c.css.map": "/ai-engineer-portfolio/static/css/main.281d4f5c.css.map",
+    "main.c3e7a973.js.map": "/ai-engineer-portfolio/static/js/main.c3e7a973.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.281d4f5c.css",
+    "static/js/main.c3e7a973.js"
+  ]
+}
